@@ -1,3 +1,4 @@
+
 package com.email.writer.app;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -9,6 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import java.util.Map;
 
 @Service
+
 public class EmailGeneratorService {
 
     private final WebClient webClient;
